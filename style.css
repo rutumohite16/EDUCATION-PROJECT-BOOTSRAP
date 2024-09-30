@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.career{
+    background-image: url(Images/background/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.nav{
+    height: 100px;
+}
+.text{
+    height: 150px;
+    width: 100%;
+    margin: 10% 0% 0% 0%;
+}
+.form{
+    width: 100%;
+    padding: 12px;
+}
+.hero{
+    height: 1000px;
+}
+.title{
+    font-size: x-large;
+}
+.suscribe{
+    margin-top: 50px;
+}
+.count{
+    background-image: url(Images/background/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1000px;
+}
+.count-1{
+    margin-top: 10%;
+}
+.count-2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.offer1{
+    width: 300px;
+    height: 450px;
+    background-color: #E6E5E3;
+}
+.offer-img{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.best-offer{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.people{
+    background-image: url(Images/background/bg\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000;
+    
+}
+.say{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.sayy{
+    margin-left: 45px;
+}
+.news-box{
+    width: 80px;
+    height: 110px;
+}
+.latest{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.heading{
+    font-size: 15px;
+}
+
+
+@media(min-width:768px){
+    .career{
+        height: 550px;
+}
+    .form{
+        width: 100%;
+        padding: 12px;
+        height: 50%;
+}
+    .text{
+        height: 100px;
+        width: 60%;
+        margin: 10% 0% 0% 40%;   
+}
+    .hero{
+        height: 1300px;
+        margin-top: 50px;
+}
+.suscribe{
+    margin-top: 170px;
+}
+.people{
+    height: 800px;
+}
+.sayy{
+    margin-left: 0px;
+}
+.heading{
+    font-size: 20px;
+}
+.count{
+    height: 700px;
+}
+
+}
+
+@media(min-width:992px){
+    .career{
+        height: 750px;
+    }
+    .text{
+        height: 200px;
+        width: 50%;
+        margin: 10% 0% 0% 50%;
+}
+    .hero{
+        height: 1000px;
+        margin-top: 80px;
+}
+    .hero-1{
+        margin-top: 60px;
+    }
+    .para{
+        font-size: x-large;
+    }
+    .title{
+        font-size:40px;
+    }
+    .suscribe{
+        margin-top: 170px;
+    }
+    .people{
+        background-image: url(Images/background/bg\ \(1\).jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        width: 100%;
+        height: 600px;
+}
+.sayy{
+    margin-left: 0px;
+}
+.heading{
+    font-size: 20px;
+}
+}
+
